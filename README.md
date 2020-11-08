@@ -1,6 +1,10 @@
-**Project**
+# Exploring the Application of Benford's Law on Multifamily Property Financials
 
-Borrower's of Fannie Mae insured multifamily mortgages must submit annual financial statements for their properties. Lenders, when making a Fannie Mae insured loan, submit underwritten projections of the property's annual financial performance.
+**[Notebook can be viewed here: nbviewer](https://nbviewer.jupyter.org/github/ZachariahRosenberg/Benfords-Law-FNMA_Financials/blob/master/Benfords%20Law%20and%20FNMA.ipynb)**
+
+## Project
+
+Borrower's of Fannie Mae insured multifamily mortgages must submit annual financial statements for their properties. Lenders, when making a Fannie Mae insured loan, submit underwritten projections of the property's annual financial performance. 
 
 We look at both borrower provided annual financial statements and lender submittd underwritten statements to see if they conform to Benford's Law. Benford's law has been used to detect anomalies in datasets due to, for instance, fraud.
 
@@ -8,16 +12,14 @@ We look at both borrower provided annual financial statements and lender submitt
 
 ["Netflix Documentary - Connected: Digits"](https://www.netflix.com/gb/title/81031737)
 
-**[Notebook can be viewed here: nbviewer](https://nbviewer.jupyter.org/github/ZachariahRosenberg/Benfords-Law-FNMA_Financials/blob/master/Benfords%20Law%20and%20FNMA.ipynb)**
-
-**Definition**
+## Definition
 
 Benford's "law" is an observation that given a large enough set of numerical datapoints, if you take the first digit from each data point, the frequency of the first digit being a 1 or 2 or subsequent follows a predictable pattern.
 
 For instance, if we look at all of the reported rental incomes for properties in the Fannie Mae portfolio, the data points' first digit should conform to benford's law.
 
 
-**The Digit Distribution**
+## The Digit Distribution
 
 According to Benford's law, the distrbution should follow approximately the following formula:
 
@@ -30,7 +32,7 @@ Which turns out to look like:
 *Source: [wikipedia](https://en.wikipedia.org/wiki/Benford%27s_law)*
 
 
-**Example**
+## Example
 
 Looking at Annual Financials Nationwide seem to conform:
 
@@ -40,7 +42,7 @@ Looking at Florida specific, looks odder:
 
 ![](./florida_benford_plots.png)
 
-**Conclusions**
+## Conclusions
 
 This analysis isn't complete. However, it seems Fannie Mae financial data tends to follow Benford's Law. This means that sets of data that do not follow are worth taking a closer look.
 
