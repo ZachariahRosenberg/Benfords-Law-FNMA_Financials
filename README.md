@@ -8,6 +8,8 @@ We look at both borrower provided annual financial statements and lender submitt
 
 ["Netflix Documentary - Connected: Digits"](https://www.netflix.com/gb/title/81031737)
 
+**[Notebook can be viewed here: nbviewer](https://nbviewer.jupyter.org/github/ZachariahRosenberg/Benfords-Law-FNMA_Financials/blob/master/Benfords%20Law%20and%20FNMA.ipynb)**
+
 **Definition**
 
 Benford's "law" is an observation that given a large enough set of numerical datapoints, if you take the first digit from each data point, the frequency of the first digit being a 1 or 2 or subsequent follows a predictable pattern.
